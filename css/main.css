@@ -1,0 +1,175 @@
+* {
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-overflow-scrolling: touch;
+}
+
+html {
+    height: 100%;
+	overflow: hidden;
+}
+
+body {
+    min-height: 100%;
+}
+
+.smart-object {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -webkit-transform-style: flat;
+    -moz-transform-style: flat;
+    -ms-transform-style: flat;
+    -o-transform-style: flat;
+}
+
+a {
+    text-decoration: none;
+    color: #eab800;
+    border-bottom: 1px solid #f7c500;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: #f7c500;
+}
+
+a:visited {
+    color: #f7c500;
+}
+
+a:hover {
+    color: #eab800;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.input {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font: 34px/40px Exemplar-Regular, Circular-Book, Arial;
+    outline: none;
+    white-space: pre;
+    color: #fff;
+    border-bottom: 3px solid yellow;
+    cursor: pointer;
+}
+
+.inputSpan {
+    visibility: hidden;
+    position: absolute;
+    background: green;
+    clear: both;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.select {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font: 34px/40px Exemplar-Regular, Circular-Book, Arial;
+    color: #fff;
+    border-bottom: 3px solid yellow;
+    display: inline-block;
+    cursor: pointer;
+}
+
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+select::-moz-focus-inner {
+  border: 0;
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+select optgroup {
+	font-size:14px;
+	color: #008000;
+}
+
+.file-image {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.file-image figure {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.file-image figure img {
+    width: 100%;
+    height: auto;
+}
+.file-image figure .copyright {
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Circular-Book;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.298039) 1px 1px 1px;
+}
+.file-image figure figcaption {
+    position: relative;
+    clear: both;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Circular-Bold;
+    color: rgb(81, 93, 106);
+    top: -20px;
+}
+
+blockquote.plugin-pullquote {
+    position: relative;
+    width: 100%;
+    padding: 20px 30px;
+    line-height: 1.2;
+    font-family: Circular-medium;
+    color: rgb(192, 187, 178);
+}
+blockquote.plugin-pullquote > div.plugin-pullquote-attribution {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Circular-medium;
+    position: relative;
+    float: right;
+    clear: both;
+    color: rgb(192, 187, 178);
+    margin-top: 11px;
+}
+blockquote.plugin-pullquote > div.plugin-pullquote-attribution:before {
+    content: "- ";
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Circular-Book';
+    src: url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-book.eot?#iefix') format('embedded-opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-book.otf') format('opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-book.woff') format('woff'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-book.ttf') format('truetype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-book.svg#Circular-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Book-Italic';
+    src: url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bookitalic.eot?#iefix') format('embedded-opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bookitalic.otf') format('opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bookitalic.woff') format('woff'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bookitalic.ttf') format('truetype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bookitalic.svg#Circular-Book-Italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Bold';
+    src: url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bold.eot?#iefix') format('embedded-opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bold.otf') format('opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bold.woff') format('woff'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bold.ttf') format('truetype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-bold.svg#Circular-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Medium';
+    src: url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-medium.eot?#iefix') format('embedded-opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-medium.otf') format('opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-medium.woff') format('woff'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-medium.ttf') format('truetype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/circular/circularstd-medium.svg#Circular-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exemplar-Bold';
+    src: url('//dg2d3wxprq381.cloudfront.net/assets/fonts/exemplar/exemplar-pro-bold.eot?#iefix') format('embedded-opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/exemplar/exemplar-pro-bold.otf') format('opentype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/exemplar/exemplar-pro-bold.woff') format('woff'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/exemplar/exemplar-pro-bold.ttf') format('truetype'), url('//dg2d3wxprq381.cloudfront.net/assets/fonts/exemplar/exemplar-pro-bold.svg#Exemplar-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.spinner
+{
+    background: url('//dg2d3wxprq381.cloudfront.net/assets/images/static/main/ui/spinner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
